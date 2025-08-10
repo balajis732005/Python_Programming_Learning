@@ -71,7 +71,3 @@ print("CHR() : ",chr(65))
 #ERROR STATEMENT
 change=k.maketrans("god","first")
 print("MAKETRANS() : ",k.translate(change))
-
-
-
-
