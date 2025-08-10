@@ -1,0 +1,10 @@
+#BITWISE OPERATORS
+a=int(input("Enter a number 1 : "))
+b=int(input("Enter a number 2 : "))
+print("A : ",a,"\t","B : ",b)
+print("BITWISE AND : ",a&b)
+print("BITWISE OR : ",a|b)
+print("BITWISE XOR : ",a^b)
+print("BITWISE NOT : ",~a)
+print("BITWISE LEFT SHIFT : ",a<<2)
+print("BITWISE RIGHT SHIFT : ",a>>2)

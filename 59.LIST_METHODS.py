@@ -1,0 +1,50 @@
+ #LIST AND LIST METHODS
+list1=list(map(int,input("Enter the elements of list : ").split()))
+print(type(list1),"=LIST ARE MUTABLE")
+list1[0]=0
+print("LIST SLICING : ",list1[0:5:2],"=IT IS SAME LIKE STRING SLICING")
+list1.append(6)
+print("APPEND ()[ONLY ONE PARAMETER] : ",list1)
+list2=[7,8,9,0,0]
+list1.append(list2)
+print("APPEND ()[ANOTHER LIST(NESTED LIST)] : ",list1)
+print("NESTED LIST SLICING : ",list1[6][2],"(list2 - 3rd element)")
+copy_list1=list1.copy()
+print("COPY () : ",copy_list1)
+print("COUNT () : ",list2.count(0))
+list1.extend(copy_list1)
+print("EXTEND () : ",list1)
+print("INDEX () : ",list1.index(list2))
+list1.insert(0,"BALAJI")
+print("INSERT () : ",list1)
+list1.reverse()
+print("REVERSE () : ",list1)
+list3=[5,2,3,4,1]
+list3.sort()
+print("SORT () [ASENDING ORDER] : ",list3)
+list3.sort(reverse=True)
+print("SORT () [DECENDING ORDER] : ",list3)
+list4=["APPLE","ORANGE","MANGO","STRAWBERRY","PAPAYA"]
+list4.sort()
+print("SORT () [STRING - ASENDING ORDER] : ",list4)
+list4.sort(reverse=True)
+print("SORT () [STRING - DECENDING ORDER] : ",list4)
+list4.sort(key=len)
+print("SORT () [STRING - LENGTH] : ",list4)
+list4.sort(reverse=True,key=len)
+print("SORT () [STRING - LENGTH WITH REVERSE] : ",list4)
+list2.clear()
+print("CLEAR () : ",list2)
+list3.pop(1) #It remove value according to index
+print("POP () : ",list3)
+list3.remove(5) #It remove value according to value
+print("REMOVE () : ",list3)
+
+
+
+
+
+
+
+
+
