@@ -7,5 +7,3 @@ print(x is not y)
 print(x is z)
 print(x is not z)
 print(z is y)
-x=a
-

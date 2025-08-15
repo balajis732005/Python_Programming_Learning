@@ -7,7 +7,7 @@ num=12.5 #float
 print(int(num)+1) #type casting to integer
 print(str(num)+str(1)) #type casting to string
 print("Data type of num after type casting : ",type(num))
-#If we want to change the data type permanently by type cating the;
+#If we want to change the data type permanently by type casting the;
 num=int(num)
 print(num)
 print(type(num))

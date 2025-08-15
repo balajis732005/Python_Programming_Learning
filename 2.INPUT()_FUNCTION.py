@@ -14,5 +14,3 @@ height=input("Enter your height in centimeters : ")
 print("Data type of height : ",type(height)) #string
 height_in_inches=height/2.54
 print("HEIGHT IN INCHES : ",height_in_inches)
-
-
