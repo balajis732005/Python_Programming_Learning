@@ -6,4 +6,3 @@ print("APPEND : ",s1)
 print("REPEATING : ",s2*3)
 del s2 #We can only delete the string
 s1[0]='A'
-

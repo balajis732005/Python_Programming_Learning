@@ -19,7 +19,7 @@ def txt():
     pen.setpos(-68,95)
     pen.down()
     pen.color('black')
-    pen.write("CHENNAI\nINSTITUTE\nOF\nTECHNOLOGY",font=("Verdana",10,"bold"))
+    pen.write("BALAJI S\nwho?",font=("Verdana",10,"bold"))
 heart()
 txt()
 pen.ht()

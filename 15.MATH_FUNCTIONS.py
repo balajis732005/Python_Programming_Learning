@@ -108,13 +108,3 @@ print("E : ",math.e)
 print("TAU or 2*PI : ",math.tau)
 print("INFINITE NUMBER : ",math.inf)
 print("NOT A NUMBER : ",math.nan)
-
-
-
-
-
-
-
-
-
-

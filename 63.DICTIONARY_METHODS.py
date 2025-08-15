@@ -35,5 +35,3 @@ print(users["USER2"])
 x={"KEY1","KEY2","KEY3"}
 y=0
 print(dict.fromkeys(x,y))
-
-

@@ -51,5 +51,3 @@ set_G.symmetric_difference_update(set_H)
 print("SYMMETRIC_DIFFERENCE_UPDATE () : ",set_G)
 # WE CAN'T ADD ANYTHING IN FROZENSET
 x.add('X')
-
-

@@ -39,12 +39,3 @@ list3.pop(1) #It remove value according to index
 print("POP () : ",list3)
 list3.remove(5) #It remove value according to value
 print("REMOVE () : ",list3)
-
-
-
-
-
-
-
-
-
