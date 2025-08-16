@@ -18,5 +18,7 @@ class Child(ABS):
         print("Child Implementation")
 
 c = Child()
-c.childImp()
-c.get_dataBase()
+
+if __name__ == '__main__':
+    c.childImp()
+    c.get_dataBase()
